@@ -8,6 +8,9 @@
 .nav h1 {
     font-size: 30px;
     position: fixed;
+    background: -webkit-linear-gradient(120deg, rgb(196, 181, 253) 30%, rgb(123, 197, 228));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .nav-links {
