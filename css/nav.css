@@ -1,0 +1,42 @@
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 100px;
+}
+
+.nav h1 {
+    font-size: 30px;
+    position: fixed;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    transition: color 0.3s ease;
+    flex-grow: 1;
+    justify-content: center;
+}
+
+.nav-links a {
+    color: #cccccc;
+    transition: color 0.2s ease;
+}
+
+.nav-links a:hover {
+    color: #ffffff;
+}
+
+.nav-logo img {
+    height: 40px;
+    position: fixed;
+    top: 45px;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
